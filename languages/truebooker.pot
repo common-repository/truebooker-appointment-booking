@@ -1,0 +1,672 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Truebooker Appointment Booking\n"
+"POT-Creation-Date: 2024-01-24 12:32+0530\n"
+"PO-Revision-Date: 2016-04-01 11:48+0530\n"
+"Last-Translator: \n"
+"Language-Team: Themetechmount Team <themetechmount@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;"
+"_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../main/truebooker-appointment.php:24
+msgid "Appointments"
+msgstr ""
+
+#: ../main/truebooker-appointment.php:37 ../main/truebooker-category.php:75
+#: ../main/truebooker-dashboard.php:99 ../main/truebooker-service.php:154 ../main/truebooker-user.php:237
+#: ../main/views/truebooker-category.php:20 ../main/views/truebooker-service.php:14
+#: ../main/views/truebooker-user.php:15
+msgid "No Record Found!"
+msgstr ""
+
+#: ../main/truebooker-appointment.php:52 ../main/truebooker-dashboard.php:113
+#: ../main/truebooker-user.php:252 ../main/views/truebooker-user.php:30
+msgid "Full Name"
+msgstr ""
+
+#: ../main/truebooker-appointment.php:57 ../main/truebooker-dashboard.php:118
+#: ../main/truebooker-user.php:89 ../main/truebooker-user.php:257 ../main/views/bookingform-frontend.php:62
+#: ../main/views/truebooker-user.php:35
+msgid "Email"
+msgstr ""
+
+#: ../main/truebooker-appointment.php:62 ../main/truebooker-dashboard.php:123
+#: ../main/truebooker-user.php:95 ../main/truebooker-user.php:262 ../main/views/bookingform-frontend.php:68
+#: ../main/views/truebooker-user.php:40
+msgid "Phone"
+msgstr ""
+
+#: ../main/truebooker-appointment.php:67 ../main/truebooker-dashboard.php:128
+#: ../main/truebooker-user.php:139 ../main/truebooker-user.php:157
+#: ../main/views/bookingform-frontend.php:112 ../main/views/bookingform-frontend.php:131
+msgid "Service"
+msgstr ""
+
+#: ../main/truebooker-appointment.php:72 ../main/truebooker-dashboard.php:133
+msgid "Appointment Date"
+msgstr ""
+
+#: ../main/truebooker-appointment.php:77 ../main/truebooker-dashboard.php:138
+msgid "Appointment Time"
+msgstr ""
+
+#: ../main/truebooker-appointment.php:147 ../main/truebooker-appointment.php:178
+#: ../main/truebooker-category.php:148 ../main/truebooker-category.php:179
+#: ../main/truebooker-dashboard.php:267 ../main/truebooker-service.php:247
+#: ../main/truebooker-service.php:279 ../main/truebooker-user.php:330 ../main/truebooker-user.php:363
+#: ../main/views/truebooker-category.php:119
+msgid "Success"
+msgstr ""
+
+#: ../main/truebooker-appointment.php:147 ../main/truebooker-appointment.php:178
+#: ../main/truebooker-user.php:330
+msgid "User has been deleted successfully."
+msgstr ""
+
+#: ../main/truebooker-appointment.php:160 ../main/truebooker-category.php:160
+#: ../main/truebooker-category.php:193 ../main/truebooker-dashboard.php:248
+#: ../main/truebooker-service.php:261 ../main/truebooker-service.php:296 ../main/truebooker-user.php:345
+#: ../main/truebooker-user.php:377 ../main/views/truebooker-category.php:100
+#: ../main/views/truebooker-category.php:133
+msgid "Error"
+msgstr ""
+
+#: ../main/truebooker-appointment.php:160 ../main/truebooker-appointment.php:189
+#: ../main/truebooker-category.php:160 ../main/truebooker-category.php:193
+#: ../main/truebooker-dashboard.php:248 ../main/truebooker-service.php:261
+#: ../main/truebooker-service.php:296 ../main/truebooker-user.php:345 ../main/truebooker-user.php:377
+#: ../main/views/truebooker-category.php:100 ../main/views/truebooker-category.php:133
+msgid "Getting some error."
+msgstr ""
+
+#: ../main/truebooker-appointment.php:164 ../main/truebooker-appointment.php:193
+#: ../main/truebooker-category.php:164 ../main/truebooker-category.php:198
+#: ../main/truebooker-dashboard.php:252 ../main/truebooker-service.php:265
+#: ../main/truebooker-service.php:301 ../main/truebooker-user.php:349 ../main/truebooker-user.php:382
+#: ../main/views/truebooker-category.php:137
+msgid "Select at least 1 record to delete"
+msgstr ""
+
+#: ../main/truebooker-category-insert.php:41
+msgid "Category has been added successfully."
+msgstr ""
+
+#: ../main/truebooker-category-insert.php:52
+msgid "Please enter category"
+msgstr ""
+
+#: ../main/truebooker-category.php:44 ../main/truebooker-service.php:62 ../main/truebooker-user.php:72
+msgid "Add New"
+msgstr ""
+
+#: ../main/truebooker-category.php:49 ../main/truebooker-category.php:89
+#: ../main/views/truebooker-category.php:34
+msgid "Category Name"
+msgstr ""
+
+#: ../main/truebooker-category.php:62 ../main/views/truebooker-category.php:7
+msgid "Manage Categories"
+msgstr ""
+
+#: ../main/truebooker-category.php:148
+msgid "Category has been deleted successfully."
+msgstr ""
+
+#: ../main/truebooker-category.php:179 ../main/views/truebooker-category.php:119
+msgid "Categories has been deleted successfully."
+msgstr ""
+
+#: ../main/truebooker-dashboard.php:21
+msgid "Dashboard"
+msgstr ""
+
+#: ../main/truebooker-dashboard.php:34
+msgid "Total Appointments"
+msgstr ""
+
+#: ../main/truebooker-dashboard.php:48 ../main/truebooker-dashboard.php:80
+msgid "Pending Appointments"
+msgstr ""
+
+#: ../main/truebooker-dashboard.php:74
+msgid "Total Customers"
+msgstr ""
+
+#: ../main/truebooker-dashboard.php:143
+msgid "Status"
+msgstr ""
+
+#: ../main/truebooker-dashboard.php:267 ../main/truebooker-user.php:363
+msgid "Users has been deleted successfully."
+msgstr ""
+
+#: ../main/truebooker-faq.php:9
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../main/truebooker-faq.php:12
+msgid "Free version & Pro version"
+msgstr ""
+
+#: ../main/truebooker-faq.php:13
+msgid ""
+"The Truebooker is a free WordPress plugin available for download on wordpress.org. The free version of "
+"the plugin includes all the major features and options. Find more information on the"
+msgstr ""
+
+#: ../main/truebooker-faq.php:13
+msgid "plugin page."
+msgstr ""
+
+#: ../main/truebooker-faq.php:14
+msgid ""
+"The Pro version extend the possibilities of the plugin, Allows setting up additional payment options "
+"such as Stripe and PayPal."
+msgstr ""
+
+#: ../main/truebooker-faq.php:15
+msgid "Note:"
+msgstr ""
+
+#: ../main/truebooker-faq.php:15
+msgid "– This shortcode will display the basic booking form for free plugin."
+msgstr ""
+
+#: ../main/truebooker-faq.php:15
+msgid "– This shortcode will display the basic booking form default style for premium plugin and"
+msgstr ""
+
+#: ../main/truebooker-faq.php:15
+msgid "– This shortcode will display the basic booking form style1 for premium plugin"
+msgstr ""
+
+#: ../main/truebooker-faq.php:18
+msgid "1. How easy is it to set up?"
+msgstr ""
+
+#: ../main/truebooker-faq.php:19
+msgid "It is ridiculously easy to set up the Truebooker plugin."
+msgstr ""
+
+#: ../main/truebooker-faq.php:20
+msgid ""
+"- Go to your WordPress’ admin page, open Truebooker -> Categories , Truebooker -> Services, and add "
+"categories and services."
+msgstr ""
+
+#: ../main/truebooker-faq.php:21
+msgid "- Add [booking_form] shortcode to one of your posts or pages for free plugin."
+msgstr ""
+
+#: ../main/truebooker-faq.php:22
+msgid ""
+"- Add [booking_form style=\"default\"] shortcode to one of your posts or pages for default style of "
+"premium plugin."
+msgstr ""
+
+#: ../main/truebooker-faq.php:23
+msgid ""
+"- Add [booking_form style=\"style1\"] shortcode to one of your posts or pages for style1 of premium "
+"plugin."
+msgstr ""
+
+#: ../main/truebooker-faq.php:24
+msgid "- Save it and Now customers can book appointments from your site’s front-end using Truebooker!"
+msgstr ""
+
+#: ../main/truebooker-faq.php:28
+msgid "2. Where can I publish a appointment booking form?"
+msgstr ""
+
+#: ../main/truebooker-faq.php:29
+msgid "Here are the ways to add a shortcode [booking_form] for booking form."
+msgstr ""
+
+#: ../main/truebooker-faq.php:30
+msgid "- In the WordPress page"
+msgstr ""
+
+#: ../main/truebooker-faq.php:31
+msgid "- In the WordPress post"
+msgstr ""
+
+#: ../main/truebooker-faq.php:32 ../main/truebooker-faq.php:33
+msgid "- In the WordPress custom post"
+msgstr ""
+
+#: ../main/truebooker-faq.php:37
+msgid "3. Is it possible to pay online?"
+msgstr ""
+
+#: ../main/truebooker-faq.php:38
+msgid ""
+"Absolutely! Payment with PayPal and Stripe is available along with On-site payment.(Pro Version Only)"
+msgstr ""
+
+#: ../main/truebooker-faq.php:42
+msgid "4. Which page builders are supported?"
+msgstr ""
+
+#: ../main/truebooker-faq.php:43
+msgid "truebooker has dedicated blocks for following Page Builders"
+msgstr ""
+
+#: ../main/truebooker-faq.php:44
+msgid "- Classic Editor of WordPress"
+msgstr ""
+
+#: ../main/truebooker-faq.php:45
+msgid "- Elementor Website Builder"
+msgstr ""
+
+#: ../main/truebooker-faq.php:46
+msgid "- WPBakery Page Builder"
+msgstr ""
+
+#: ../main/truebooker-faq.php:47
+msgid "- Gutenberg page builder of WordPress"
+msgstr ""
+
+#: ../main/truebooker-faq.php:51
+msgid "5. How to upgrade to Truebooker Pro?"
+msgstr ""
+
+#: ../main/truebooker-faq.php:52
+msgid "You can purchase Premium version of Truebooker via our"
+msgstr ""
+
+#: ../main/truebooker-faq.php:52
+msgid "official website"
+msgstr ""
+
+#: ../main/truebooker-faq.php:52
+msgid "or you can also upgrade to premium from free version."
+msgstr ""
+
+#: ../main/truebooker-faq.php:56
+msgid "6. Can the notifications be customized?"
+msgstr ""
+
+#: ../main/truebooker-faq.php:57
+msgid ""
+"Yes! you can set the messages you want to show at the frontend booking. You can set error/success and "
+"other common messages."
+msgstr ""
+
+#: ../main/truebooker-faq.php:61
+msgid "7. Do I need to have coding skills to use Truebooker Plugin?"
+msgstr ""
+
+#: ../main/truebooker-faq.php:62
+msgid "There is no need to learn any coding skills for operating Truebooker Plugin."
+msgstr ""
+
+#: ../main/truebooker-service-insert.php:65
+msgid "Service has been added successfully."
+msgstr ""
+
+#: ../main/truebooker-service-insert.php:76
+msgid "Please enter service"
+msgstr ""
+
+#: ../main/truebooker-service-insert.php:79
+msgid "Please select category"
+msgstr ""
+
+#: ../main/truebooker-service-insert.php:82
+msgid "Please enter duration value"
+msgstr ""
+
+#: ../main/truebooker-service-insert.php:85
+msgid "Please enter price"
+msgstr ""
+
+#: ../main/truebooker-service.php:67 ../main/truebooker-service.php:173
+#: ../main/views/truebooker-service.php:33
+msgid "Service Name"
+msgstr ""
+
+#: ../main/truebooker-service.php:84 ../main/truebooker-service.php:100 ../main/truebooker-service.php:178
+#: ../main/views/truebooker-service.php:38
+msgid "Category"
+msgstr ""
+
+#: ../main/truebooker-service.php:86
+msgid "Select Category"
+msgstr ""
+
+#: ../main/truebooker-service.php:102
+msgid "Please add Category"
+msgstr ""
+
+#: ../main/truebooker-service.php:110 ../main/truebooker-service.php:183
+#: ../main/views/truebooker-service.php:43
+msgid "Duration"
+msgstr ""
+
+#: ../main/truebooker-service.php:114
+msgid "Mins"
+msgstr ""
+
+#: ../main/truebooker-service.php:115
+msgid "Hrs"
+msgstr ""
+
+#: ../main/truebooker-service.php:122
+msgid "Price($)"
+msgstr ""
+
+#: ../main/truebooker-service.php:128
+msgid "Descriprion"
+msgstr ""
+
+#: ../main/truebooker-service.php:142 ../main/views/truebooker-service.php:11
+msgid "Manage Services"
+msgstr ""
+
+#: ../main/truebooker-service.php:168 ../main/views/truebooker-service.php:28
+msgid "Service Id"
+msgstr ""
+
+#: ../main/truebooker-service.php:188 ../main/views/truebooker-service.php:48
+msgid "Price"
+msgstr ""
+
+#: ../main/truebooker-service.php:247
+msgid "Service has been deleted successfully."
+msgstr ""
+
+#: ../main/truebooker-service.php:279
+msgid "Services has been deleted successfully."
+msgstr ""
+
+#: ../main/truebooker-setting-insert.php:68
+msgid "payment_settings"
+msgstr ""
+
+#: ../main/truebooker-setting-insert.php:69
+msgid "messages_settings"
+msgstr ""
+
+#: ../main/truebooker-setting-insert.php:70
+msgid "email_settings"
+msgstr ""
+
+#: ../main/truebooker-setting.php:18
+msgid "Settings"
+msgstr ""
+
+#: ../main/truebooker-setting.php:24
+msgid "Payments Setting"
+msgstr ""
+
+#: ../main/truebooker-setting.php:27
+msgid "Messages Setting"
+msgstr ""
+
+#: ../main/truebooker-setting.php:30
+msgid "Email Setting"
+msgstr ""
+
+#: ../main/truebooker-setting.php:42
+msgid "Stripe API Key"
+msgstr ""
+
+#: ../main/truebooker-setting.php:44 ../main/truebooker-setting.php:50 ../main/truebooker-setting.php:66
+#: ../main/truebooker-setting.php:72 ../main/truebooker-setting.php:77 ../main/truebooker-setting.php:82
+#: ../main/truebooker-setting.php:87 ../main/truebooker-setting.php:102
+msgid "Paid plan subscription required."
+msgstr ""
+
+#: ../main/truebooker-setting.php:48
+msgid "Stripe Secret Key"
+msgstr ""
+
+#: ../main/truebooker-setting.php:54
+msgid "Select Payment"
+msgstr ""
+
+#: ../main/truebooker-setting.php:63
+msgid "Pay Later"
+msgstr ""
+
+#: ../main/truebooker-setting.php:65
+msgid "Paypal"
+msgstr ""
+
+#: ../main/truebooker-setting.php:70
+msgid "PaypPal Id"
+msgstr ""
+
+#: ../main/truebooker-setting.php:75
+msgid "PaypPal API"
+msgstr ""
+
+#: ../main/truebooker-setting.php:80
+msgid "PayPal Merchant Email"
+msgstr ""
+
+#: ../main/truebooker-setting.php:85
+msgid "PayPal API Username"
+msgstr ""
+
+#: ../main/truebooker-setting.php:90
+msgid "PayPal Payment Mode"
+msgstr ""
+
+#: ../main/truebooker-setting.php:99
+msgid "Sandbox"
+msgstr ""
+
+#: ../main/truebooker-setting.php:101
+msgid "Live"
+msgstr ""
+
+#: ../main/truebooker-setting.php:115
+msgid "No name added for the booking"
+msgstr ""
+
+#: ../main/truebooker-setting.php:116 ../main/truebooker-user-insert.php:136
+msgid "Please enter your name"
+msgstr ""
+
+#: ../main/truebooker-setting.php:119
+msgid "No email added for the booking"
+msgstr ""
+
+#: ../main/truebooker-setting.php:120 ../main/truebooker-user-insert.php:148
+msgid "Please enter your email"
+msgstr ""
+
+#: ../main/truebooker-setting.php:123
+msgid "No phone added for the booking"
+msgstr ""
+
+#: ../main/truebooker-setting.php:124 ../main/truebooker-user-insert.php:162
+msgid "Please enter your phone"
+msgstr ""
+
+#: ../main/truebooker-setting.php:127
+msgid "No date selected for the booking"
+msgstr ""
+
+#: ../main/truebooker-setting.php:128
+msgid "Please select your date"
+msgstr ""
+
+#: ../main/truebooker-setting.php:131
+msgid "No time selected for the booking"
+msgstr ""
+
+#: ../main/truebooker-setting.php:132
+msgid "Please select your time"
+msgstr ""
+
+#: ../main/truebooker-setting.php:135
+msgid "No Service selected for the booking"
+msgstr ""
+
+#: ../main/truebooker-setting.php:136
+msgid "Please select your service"
+msgstr ""
+
+#: ../main/truebooker-setting.php:139
+msgid "Success message for the booking"
+msgstr ""
+
+#: ../main/truebooker-setting.php:140 ../main/truebooker-user-insert.php:120
+msgid "Appointment has been booked successfully!!"
+msgstr ""
+
+#: ../main/truebooker-setting.php:143
+msgid "Error message for the booking"
+msgstr ""
+
+#: ../main/truebooker-setting.php:144 ../main/truebooker-user-insert.php:129
+msgid "There is some error!!"
+msgstr ""
+
+#: ../main/truebooker-setting.php:155
+msgid "Sender Name"
+msgstr ""
+
+#: ../main/truebooker-setting.php:159
+msgid "Sender email"
+msgstr ""
+
+#: ../main/truebooker-setting.php:163
+msgid "Admin email"
+msgstr ""
+
+#: ../main/truebooker-setting.php:167
+msgid "Email Subject"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:99 ../main/views/truebooker-user-insert.php:101
+msgid "Your Appointment Booked successfully!"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:101 ../main/views/truebooker-user-insert.php:103
+msgid "Customer Name:"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:102 ../main/views/truebooker-user-insert.php:104
+msgid "Service:"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:103 ../main/views/truebooker-user-insert.php:105
+msgid "Date & Time:"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:105 ../main/truebooker-user-insert.php:110
+#: ../main/views/truebooker-user-insert.php:107 ../main/views/truebooker-user-insert.php:112
+msgid "Thank you,"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:106 ../main/views/truebooker-user-insert.php:108
+msgid "Hi administrator,"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:108 ../main/views/truebooker-user-insert.php:110
+msgid "You have one confirmed"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:108 ../main/views/truebooker-user-insert.php:110
+msgid "appointment of"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:108 ../main/views/truebooker-user-insert.php:110
+msgid "The appointment is added to your schedule."
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:111 ../main/truebooker-user-insert.php:112
+#: ../main/views/truebooker-user-insert.php:113 ../main/views/truebooker-user-insert.php:114
+msgid "From:"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:155
+msgid "Please enter valid email address"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:169
+msgid "Only numeric value is allowed"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:176
+msgid "Please select date"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:185
+msgid "Please select time"
+msgstr ""
+
+#: ../main/truebooker-user-insert.php:194
+msgid "Please select service"
+msgstr ""
+
+#: ../main/truebooker-user.php:77 ../main/views/bookingform-frontend.php:50
+msgid "First Name"
+msgstr ""
+
+#: ../main/truebooker-user.php:83 ../main/views/bookingform-frontend.php:56
+msgid "Last Name"
+msgstr ""
+
+#: ../main/truebooker-user.php:103 ../main/views/bookingform-frontend.php:76
+msgid "Note"
+msgstr ""
+
+#: ../main/truebooker-user.php:109 ../main/views/bookingform-frontend.php:82
+msgid "Booking Date"
+msgstr ""
+
+#: ../main/truebooker-user.php:115 ../main/views/bookingform-frontend.php:88
+msgid "Booking Time"
+msgstr ""
+
+#: ../main/truebooker-user.php:119 ../main/views/bookingform-frontend.php:93
+msgid "AM"
+msgstr ""
+
+#: ../main/truebooker-user.php:120 ../main/views/bookingform-frontend.php:94
+msgid "PM"
+msgstr ""
+
+#: ../main/truebooker-user.php:141
+msgid "Select Service"
+msgstr ""
+
+#: ../main/truebooker-user.php:159
+msgid "Please add Service"
+msgstr ""
+
+#: ../main/truebooker-user.php:226 ../main/views/truebooker-user.php:11
+msgid "Manage Customers"
+msgstr ""
+
+#: ../main/truebooker-user.php:267 ../main/views/truebooker-user.php:45
+msgid "Created Date"
+msgstr ""
+
+#: ../main/views/bookingform-frontend.php:115
+msgid "Select service"
+msgstr ""
+
+#: ../main/views/bookingform-frontend.php:134
+msgid "Please add service"
+msgstr ""
+
+#: ../main/views/truebooker-category.php:104
+msgid "Select at least 1 \trecord to delete"
+msgstr ""

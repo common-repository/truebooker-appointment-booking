@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0
+}
+
+label {
+    cursor: unset;
+}
+.error {
+    color: red;
+}
+
+.tba-default-box{
+    padding: 0;
+    position: relative;
+}
+.tba-main-listing-container {
+    margin: 50px 50px 50px 30px;
+    padding: 0;
+    font-family: var(--tba-font-family);
+
+}
+.tba-popconfirm {
+    background: var(--tba-cl-white);
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: var(--tba-radius-10px);
+    position: fixed;
+    right: 0;
+    top: 40px;
+    -webkit-animation: 1s fadeInRight linear;
+    -moz-animation: 1s fadeInRight linear;
+    -o-animation: 1s fadeInRight linear;
+    -ms-animation: 1s fadeInRight linear;
+    animation: 1s fadeInRight linear;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.truebooker_success {
+     background: var(--tba-al-success);
+}
+.truebooker_error {
+     background: var(--tba-al-error);
+}
+.notice {
+    display: none!important;
+}
+.tba_success {
+    color: #678B67;
+}
+.tba_error {
+    color: #A35051;
+}
+.tba-popconfirm span {
+
+    display: block;
+}
+.tba-loading {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999999999;
+    background: url("../images/ajax-loader.gif") 50% 50% no-repeat #ffffff;
+    background-size: 40px;
+}
+.truebooker-form label {
+    width: 100%;
+    display: block;
+    color: var(--tba-cl-black);
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.truebooker-form input[type=date],
+.truebooker-form input[type=datetime-local],
+.truebooker-form input[type=datetime],
+.truebooker-form input[type=email],
+.truebooker-form input[type=month],
+.truebooker-form input[type=number],
+.truebooker-form input[type=password],
+.truebooker-form input[type=search],
+.truebooker-form input[type=tel],
+.truebooker-form input[type=text],
+.truebooker-form input[type=time],
+.truebooker-form input[type=url],
+.truebooker-form input[type=week],
+.truebooker-form textarea,
+.truebooker-form select {
+    padding: 6px 15px;
+    width: 100%;
+    border-color: var(--tba-bordercolor);
+    border-radius: var(--tba-radius-10px);
+    max-width: unset;
+    font-size: 14px;
+    color: var(--tba-body-color) !important
+}
+.truebooker-form input[type=date],
+.truebooker-form input[type=datetime-local],
+.truebooker-form input[type=datetime],
+.truebooker-form input[type=email],
+.truebooker-form input[type=month],
+.truebooker-form input[type=number],
+.truebooker-form input[type=password],
+.truebooker-form input[type=search],
+.truebooker-form input[type=tel],
+.truebooker-form input[type=text],
+.truebooker-form input[type=time],
+.truebooker-form input[type=url],
+.truebooker-form input[type=week],
+.truebooker-form select {
+    height: 40px;
+}
+.truebooker-form input[type=date]:focus,
+.truebooker-form input[type=datetime-local]:focus,
+.truebooker-form input[type=datetime]:focus,
+.truebooker-form input[type=email]:focus,
+.truebooker-form input[type=month]:focus,
+.truebooker-form input[type=number]:focus,
+.truebooker-form input[type=password]:focus,
+.truebooker-form input[type=search]:focus,
+.truebooker-form input[type=tel]:focus,
+.truebooker-form input[type=text]:focus,
+.truebooker-form input[type=time]:focus,
+.truebooker-form input[type=url]:focus,
+.truebooker-form input[type=week]:focus,
+.truebooker-form textarea:focus,
+.truebooker-form select:focus {
+    border-color: var(--tba-cl-dark);
+    outline: none;
+    box-shadow: unset;
+}
+.tba-service-duration {
+    display: flex;
+}
+.tba-service-duration input#truebooker_service_duration_val {
+    -ms-flex: 1 1 auto;
+    flex: 0 0 65%;
+    margin-right: 15px;
+}
+.truebooker-form textarea {
+    margin-top: 0;
+}
+.truebooker-form input[type=datetime-local] {
+    min-height: auto;
+}
+.tba-form-field {
+    margin-bottom: 18px;
+}
+.tba-button {
+    background-color: var(--tba-cl-dark);
+    border: none;
+    color: var(--tba-cl-white);
+    border-radius: var(--tba-radius-10px);
+    padding: 10px 30px;
+    cursor: pointer;
+    -webkit-transition: .1s;
+    transition: .1s;
+    font-size: 14px;
+    height: 41px;
+}
+.tba-button:hover {
+    background-color: var(--tba-cl-black);
+}
+.button-top-sp {
+    margin-top: 28px;
+}
+.tba-page-heading {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--tba-bordercolor);
+    padding-bottom: 15px;
+    display: block;
+    font-weight: 600;
+    margin-top: 0;
+    color: var(--tba-cl-black);
+}
+.tba-details-tbl-wraper {
+    background-color: var(--tba-cl-white);
+    border-radius: var(--tba-radius-10px);
+    padding: 30px 65px 30px 35px;
+    margin-top: 65px;
+}
+.tba-details-tbl-wraper.truebooker-settingform {
+    padding: 30px 35px 30px 35px;
+}
+.tba-table__header-wrapper table {
+    width: 100%;
+}
+.tba-table__header-wrapper tr {
+    display: flex;
+}
+.tba-table__header-wrapper tr th, .tba-table__header-wrapper tr td {
+    flex: 1 1 0px;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: normal;
+}
+.tba-table__header-wrapper thead tr th:first-child, .tba-table__header-wrapper tbody tr td:first-child {
+    word-break: break-all;
+        flex: 0;
+            margin-right: 15px;
+    margin-top: 0;
+}
+.tba-table__header-wrapper tr th:last-child, .tba-table__header-wrapper tr td:last-child {
+    text-align: right;
+}
+.tba-table__header-wrapper table tbody td #delete {
+    /* display: none; */
+    font-size: 0;
+    background: transparent;
+    display: inline-block;
+    vertical-align: top;
+    z-index: 1;
+    position: relative;
+    padding-left: 0;
+    margin-right: 35px;
+    height: auto;
+}
+.tba-table__header-wrapper thead.has-gutter tr th {
+    margin-bottom: 0;
+}
+main#all-page-main-container.main-dashboard {
+    margin-left: 160px;
+    padding-left: 20px;
+}
+.tba-table__header-wrapper table tbody td #delete:before {
+    content: '\f1f8';
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    color: #000000;
+    display: inline-block;
+    vertical-align: top;
+}
+.tba-table__header-wrapper tr td:last-child {
+    position: relative;
+}
+.tba-table__header-wrapper tr td:last-child i.fa {
+    position: absolute;
+    left: auto;
+    right: 45px;
+    top: 3px;
+}
+.tba-table__header-wrapper.tba-dashboard thead.has-gutter tr th#email, .tba-table__header-wrapper.tba-dashboard tr td:nth-child(3) {
+    flex: 2 1 0px;
+}
+
+input#search-box {
+    padding: 10px 19px;
+    border: 1px solid var(--tba-bordercolor);
+    background-color: var(--tba-cl-white);
+    border-radius: var(--tba-radius-10px);
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 40%;
+    font-size: 14px;
+    height: 43px;
+}
+input#search-box:focus {
+    border-color: var(--tba-cl-dark);
+}
+input#search-box:focus-visible {
+    outline: 0;
+}
+.tba-table__header-wrapper tr th:last-child#delete #deleteall {
+    padding: 7px 30px;
+    margin-bottom: 10px;
+    margin-top: -7px;
+    font-weight: 400;
+}
+/*  timepicker CSS */
+.ui-timepicker-container {
+  position: absolute;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.ui-timepicker {
+  box-sizing: content-box;
+  display: block;
+  height: 195px;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0 1px;
+  text-align: center;
+}
+
+.ui-timepicker-viewport {
+  box-sizing: content-box;
+  display: block;
+  height: 195px;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  overflow-x: hidden;
+  /* IE */
+}
+
+.ui-timepicker-standard {
+    background-color: var(--tba-cl-white);
+    border-radius: var(--tba-radius-10px);
+    color: var(--tba-cl-black);
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 0 15px rgba(0,0,0,0.08);
+}
+
+.ui-timepicker-standard a {
+    color: var(--tba-body-color);
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    background-color: var(--tba-cl-white);
+    font-size: 14px;
+}
+
+.ui-timepicker-standard .ui-state-hover {
+  /* overwrites .ui-state-hover */
+  background-color: var(--tba-cl-dark);
+  font-weight: normal;
+  color: var(--tba-cl-white);
+}
+
+.ui-timepicker-standard .ui-menu-item {
+  /* overwrites .ui-menu and .ui-menu-item */
+  /*clear: left;
+    float: left;*/
+  margin: 0;
+  padding: 0;
+}
+
+.ui-timepicker-corners,
+.ui-timepicker-corners .ui-corner-all {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.ui-timepicker-hidden {
+  /* overwrites .ui-helper-hidden */
+  display: none;
+}
+
+.ui-timepicker-no-scrollbar .ui-timepicker {
+  border: none;
+}
+
+.ui-datepicker {
+  background: var(--tba-cl-white);
+  border-radius: 15px;
+  box-shadow: 0px 20px 40px rgba(59,60,56,0.05);
+}
+.ui-datepicker-header {
+    height: 45px;
+    line-height: 45px;
+    color: var(--tba-cl-white);
+    background: #2B4FFF;
+    margin-bottom: 12px;
+}
+.ui-datepicker-prev,
+.ui-datepicker-next {
+  width: 20px;
+  height: 20px;
+  text-indent: 9999px;
+  border-radius: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.ui-datepicker-prev {
+  float: left;
+  margin-left: 12px;
+}
+.ui-datepicker-prev:after {
+  transform: rotate(45deg);
+  margin: -43px 0px 0px 8px;
+}
+.ui-datepicker-next {
+  float: right;
+  margin-right: 12px;
+}
+.ui-datepicker-next:after {
+  transform: rotate(-135deg);
+  margin: -43px 0px 0px 6px;
+}
+.ui-datepicker-prev:after,
+.ui-datepicker-next:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-left: 2px solid var(--tba-cl-white);
+  border-bottom: 2px solid var(--tba-cl-white);
+}
+.ui-datepicker-prev:hover,
+.ui-datepicker-next:hover,
+.ui-datepicker-prev:hover:after,
+.ui-datepicker-next:hover:after {
+  border-color: var(--tba-cl-black);
+}
+.ui-datepicker-title {
+  text-align: center;
+  font-size: 20px;
+}
+.ui-datepicker-calendar {
+  width: 100%;
+  text-align: center;
+}
+.ui-datepicker-calendar thead tr th span {
+  display: block;
+  width: 45px;
+  color: var(--tba-cl-black);
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.ui-datepicker-calendar .ui-state-default {
+  display: block;
+  text-decoration: none;
+  color: var(--tba-cl-black);
+  line-height: 45px;
+  font-size: 14px;
+  border-radius: var(--tba-radius-50px);
+  transition: all 0.25s cubic-bezier(0.7, -0.12, 0.2, 1.12);
+}
+.ui-datepicker-calendar .ui-state-default:hover {
+  color: var(--tba-cl-white);
+  background:var(--tba-cl-dark);
+  transition: all 0.25s cubic-bezier(0.7, -0.12, 0.2, 1.12);
+}
+.ui-datepicker-calendar .ui-state-highlight {
+  color: var(--tba-cl-white);
+  background-color: var(--tba-cl-black);
+  border-radius: var(--tba-radius-50px);
+}
+.ui-datepicker-calendar .ui-state-active {
+  color: var(--tba-cl-white);
+  background-color:var(--tba-cl-dark);
+  border-radius: var(--tba-radius-50px);
+}
+.ui-datepicker-unselectable .ui-state-default {
+    color: #c2c2c2;
+}
+.ui-datepicker-unselectable .ui-state-default:hover {
+    color: var(--tba-cl-white);
+}
+.tba-time-duration {
+    display: flex;
+}
+.tba-time-duration input#timepicker {
+    -ms-flex: 1 1 auto;
+    flex: 0 0 65%;
+    margin-right: 15px;
+}
+.tba-dashboard-summary {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.tba-dash-summary-item {
+    flex: 1;
+    border: 1px solid var(--tba-bordercolor);
+    margin-right: 32px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 24px;
+    -webkit-border-radius: var(--tba-radius-10px);
+    -moz-border-radius: var(--tba-radius-10px);
+    -o-border-radius: var(--tba-radius-10px);
+    border-radius: var(--tba-radius-10px);
+    text-align: center;
+}
+.tba-dashboard-summary .tba-dash-summary-item:last-child {
+    margin-right: 0;
+}
+.tba-dashboard-summary .tba-dash-summary-item p {
+    font-size: 16px;
+    color: var(--tba-body-color);
+    margin: 0;
+    font-family: var(--tba-font-family);
+    font-weight: 400;
+}
+.tba-dashboard-summary .tba-dash-summary-item h3 {
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--tba-cl-black);
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-family: var(--tba-font-family);
+    margin-top: 0;
+}
+.tba-dashboard-summary .tba-dash-summary-item.total-appointment h3 {
+    color: var(--tba-cl-dark);
+}
+.tba-dashboard-summary .tba-dash-summary-item.pending-appointment h3 {
+    color: var(--tba-pappointment-color);
+}
+.tba-dashboard-summary .tba-dash-summary-item.truebooker-users h3 {
+    color: var(--tba-user-color);
+}
+.tba-dashboard input#truebooker_appointment_status {
+    border: 0;
+    background: transparent;
+    color: var(--tba-pappointment-color);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.tba-form-field .iti {
+    display: block;
+}
+.hide {
+    display: none;
+}
+.truebooker-settingform .tba-sec-top {
+    display: flex;
+    overflow: visible;
+}
+.tba-sec-top .tab-content {
+    flex-basis: 85%;
+}
+.tba-sec-top #tba-tab {
+    float: none;
+    margin-right: 32px;
+    background-color: var(--tba-gray);
+    border-radius: var(--tba-radius-10px);
+    padding: 40px 28px;
+    flex-basis: 20%;
+}
+.tba-sec-top li.nav-item a {
+    border: 1px solid var(--tba-cl-lightdark);
+    background-color: var(--tba-cl-white);
+    border-radius: var(--tba-radius-10px);
+    padding: 16px 28px;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 32px;
+    color: var(--tba-cl-black);
+    transition: unset;
+    display: block;
+}
+.tba-sec-top li.nav-item a:focus {
+    box-shadow: none;
+}
+.tba-sec-top li.nav-item a:hover {
+    border-color: var(--tba-bordercolor);
+}
+.tba-sec-top li.nav-item.tab-active a {
+    border: 1px solid var(--tba-cl-dark);
+    background-color: var(--tba-cl-dark);
+    color: var(--tba-cl-white);
+    box-shadow: 0 4px 8px rgba(43, 79, 255, 0.06), 0 8px 16px rgba(43, 79, 255, 0.16);
+}
+.tba-sec-top li.nav-item a i {
+    margin-right: 5px;
+    font-size: 16px;
+}
+.tba-form-field-radio {
+    display: inline-flex;
+}
+.truebooker-form .tba-form-field-radio input[type=radio] {
+    margin-top: 2px !important;
+    margin-right: 5px !important;
+}
+.truebooker-form .tba-form-field-radio label {
+    padding-right: 15px;
+    width: auto;
+}
+.tba-form-field.tba-tab-button {
+    position: absolute;
+    top: -11px;
+    right: 35px;
+    bottom: auto;
+    left: auto;
+}
+#result.truebooker_success {
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: var(--tba-radius-10px);
+    position: fixed;
+    right: 0;
+    top: 40px;
+    -webkit-animation: 1s fadeInRight linear;
+    -moz-animation: 1s fadeInRight linear;
+    -o-animation: 1s fadeInRight linear;
+    -ms-animation: 1s fadeInRight linear;
+    animation: 1s fadeInRight linear;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.tba-main input[type=checkbox], .tba-main input[type=radio] {
+    border: 1px solid var(--tba-bordercolor);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--tba-body-color);
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    margin: -.25rem .25rem 0 0 !important;
+    outline: 0;
+    padding: 0!important;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    transition: .05s border-color ease-in-out;
+}
+.tba-main input[type=radio] {
+    border-radius: 50%;
+    margin-right: .25rem;
+    line-height: .71428571;
+}
+.tba-main input[type=radio]:checked::before {
+    content: "";
+    border-radius: 50%;
+    line-height: 1.14285714;
+}
+.tba-details-tbl h4 {
+    font-size: 1em;
+}
+.extensionsValid {
+    color: #ff001c;
+}
+.tba_faq li {
+    margin: 0 0 15px;
+}
+.tba_faq ol {
+    margin-top: 20px;
+}
+.tba-sec-top li.nav-item:last-child a {
+    margin-bottom: 0;
+}
